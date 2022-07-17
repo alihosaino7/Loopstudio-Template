@@ -97,6 +97,12 @@ a{
     align-items: center;
 }
 
+@media (max-width:416px) {
+    .landing header {
+        height: 100px;
+    }
+}
+
 .landing header .burger-icon {
     display: none;
     height: 18px;
