@@ -9,7 +9,7 @@ function sliderNav() {
         nav.style.left = "0";
         nav.style.display = "flex";
     }
-    closeIcon.addEventListener("click", _ => {
+    closeIcon.onclick = function () {
         nav.style.left = "-500px";
     })
 }
